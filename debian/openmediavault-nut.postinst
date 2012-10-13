@@ -26,6 +26,10 @@ set -e
 
 case "$1" in
 	configure)
+		# create a link for upssched-cmd
+		# TODO: verify usage of upssched-cmd and remove this link
+		ln -s /usr/bin/upssched-cmd /usr/local/bin/
+
 		########################################################################
 		# Set the default settings of the nut package to those expected
 		# by OpenMediaVault.

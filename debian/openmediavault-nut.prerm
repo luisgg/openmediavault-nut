@@ -23,9 +23,11 @@ set -e
 
 case "$1" in
 	purge)
+		rm -f /usr/local/bin/upssched-cmd
 	;;
 
 	remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+		rm -f /usr/local/bin/upssched-cmd
 	;;
 
 	*)

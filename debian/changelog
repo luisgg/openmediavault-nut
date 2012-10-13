@@ -1,6 +1,8 @@
 openmediavault-nut (0.4+svn339-0aurex1) precise; urgency=low
 
   * Upstream snapshot, based on 'trunk' revision 339 (2012-10-12)
+  * upssched-cmd moved to /usr/bin (temporarily, postinstall creates
+    a link to it in the old location, /usr/local/bin)
   * Rebuild for aurex 12.04
 
  -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 13 Oct 2012 02:03:09 +0200
